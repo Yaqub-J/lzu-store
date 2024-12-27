@@ -7,7 +7,7 @@ export default function LogoIcon(props: React.ComponentProps<'svg'>) {
       aria-label={`${process.env.SITE_NAME} logo`}
       viewBox="0 0 500 500"
       {...props}
-      className={clsx('h-4 w-4 fill-black dark:fill-white', props.className)}
+      className={clsx('h-8 w-8 fill-black dark:fill-white', props.className)}
     >
       <path
         style={{ fill: '#a55ef6', stroke: 'none' }}
